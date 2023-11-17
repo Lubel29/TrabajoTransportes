@@ -1,0 +1,43 @@
+.Objetivos {
+    margin-right: 5%;
+    text-align: center;
+}
+
+.Objetivos p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.personas {
+    display: inline-block;
+    justify-content: space-between;
+    margin-bottom: 5%;
+
+}
+
+.persona p {
+    font-size: 18px;
+}
+
+.persona {
+    border: 1px solid white;
+    border-radius: 19px 19px 19px 19px;
+    -webkit-border-radius: 19px 19px 19px 19px;
+    -moz-border-radius: 19px 19px 19px 19px;
+    background: #e3eeed;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.staff h2 {
+    text-align: center;
+}
+
+.persona img {
+    border-radius: 50%;
+    box-shadow: 11px 10px 32px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 11px 10px 32px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px 10px 32px 2px rgba(0, 0, 0, 0.75);
+
+}

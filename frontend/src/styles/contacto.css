@@ -1,0 +1,72 @@
+form {
+
+    padding: 40px 30px ;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 30%;
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form h2 {
+    color: #5fc0b8;
+    font-size: 40px;
+}
+
+label {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+input,
+textarea {
+    padding: 15px 30px;
+    background-color: beige;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    outline: none;
+    cursor: pointer;
+    width: 40%;
+
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(156, 156, 156);
+}
+
+.formulario input[type="submit"]{
+    width: 20%;
+}
+
+.btn {
+    border: 0;
+    border-radius: 25px;
+    background-color: #5fc0b8;
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: #aabdbb;
+}
+
+.contacto{
+    gap: 24px;
+    display: flex;
+}
+
+.holdercontacto div{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}

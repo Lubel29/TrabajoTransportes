@@ -1,0 +1,34 @@
+
+footer {
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .iconosRedes {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(219, 219, 219);
+  }
+  
+  .iconosRedes a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  .iconosRedes a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+  }
+  
+  .iconosRedes a:hover {
+    background-color: rgb(255, 249, 249);
+    transition: 0.5s;
+  }
