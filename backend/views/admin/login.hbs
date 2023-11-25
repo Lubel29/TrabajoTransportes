@@ -1,0 +1,26 @@
+<section>
+    <div class="contenedor" style="margin:0">
+        <div class="formulario">
+            <form action="/admin/login" method="post">
+                <div class="bienvenido" style="color:#7FC5BF">
+                    <h3> Iniciar sesion </h3>
+                </div>
+                <div class="input-contenedor" style="margin-bottom:10px">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="inputUser" placeholder="usuario" name="usuario">
+                </div>
+
+                <div class="input-contenedor" style="margin-bottom:10px">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="inputPassword" placeholder="Contraseña" name="password">
+                </div>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary"> Acceder</button>
+        </div>
+        </form>
+        {{#if error}}
+        <p>Usuario y/o contraseña incorrectos</p>
+        {{/if}}
+    </div>
+</section>
