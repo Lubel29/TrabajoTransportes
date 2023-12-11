@@ -2,9 +2,13 @@
     <div class="row justify-content-center">
         <div class="col-6 offset-3">
             <h4 class="text-center mb-4">Actualizar embarques y horarios</h4>
-            <form action="/admin/novedades/agregar" method="post">
+            <form action="/admin/novedades/agregar" method="post"
+            enctype="multipart/form-data">
                 <div class="mb-3 row">
                     <input type="text" class="form-control" placeholder="N°embarque" name="numero">
+                </div>
+                <div class="mb-3 row">
+                    <label>Imagen: <input type="file" class="form-control" name="imagen" id="imagen"/></label>
                 </div>
                 <div class="mb-3 row">
                     <input type="text" class="form-control" placeholder="Fecha de embarque" name="fecha">

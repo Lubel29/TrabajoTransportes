@@ -2,23 +2,44 @@
     width: 30%;
     background-color: rgb(243, 236, 236);
     margin-bottom: 20%;
-    float: right;
     border-radius: 5%;
+    margin-left: 20%;
     border: 7px ridge #000000;
     text-align: center;
+    height: 20%;
+    float: right;
+}
+
+.Novedades{
+    width: 70%;
+    margin-left: 10%;
+    background-image: url("/fondonubes.jpg");
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 10%;
+    box-shadow: 16px 14px 20px black;
+    overflow: hidden;
+}
+
+.Novedades h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
 
 }
 
+.Novedades h4 {
+    font-size: 20px;
+    text-align: center;
+    color:rgb(0, 0, 0);
 
-.novedades {
-    padding-right: 10px;
-    text-align: justify;
-    margin-left: 50px;
 }
 
-.novedades img {
-    display: block;
-    margin-left: 50%;
-    padding-bottom: 20px;
+.Novedades img{
+    width: 100px;
+    height: 60px;
+}
 
+.holder {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }

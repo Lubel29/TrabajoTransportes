@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Header = (props) => {
     return (
         <header>
-            <div className="holder">
+            {/* <div className="holder"> */}
                 <div className="logo">
                     <img src="img/logo.png" width="160" alt="Transportes x"></img>
                     <h1>Transportes<hr />
@@ -19,7 +19,7 @@ const Header = (props) => {
                         </div>
                     </nav>
                 </div>
-            </div>
+            {/* </div> */}
         </header>
 
     )
