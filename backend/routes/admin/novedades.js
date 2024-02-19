@@ -53,7 +53,7 @@ router.post('/agregar', async (req, res, next) => {
       img_id = (await uploader(imagen.tempFilePath)).public_id;
     }
 
-    if (req.body.numero != "" && req.body.fecha != "" && req.body.salida != "" && req.body.arribo != "") {
+    if (req.body.numero != "" && req.body.Fecha_Salida != "" && req.body.salida != "" && req.body.arribo != "") {
       await novedadesModel.insertNovedad({
         ...req.body,
         img_id
@@ -119,7 +119,7 @@ router.post('/modificar', async (req, res, next) => {
     }
 
     var obj = {
-      fecha: req.body.fecha,
+      Fecha_Salida: req.body.Fecha_Salida,
       salida: req.body.salida,
       arribo: req.body.arribo,
       img_id

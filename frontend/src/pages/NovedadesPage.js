@@ -26,7 +26,7 @@ return (
                 <p>Cargando...</p>
             ) : (
                 novedades.map(item => <NovedadItem key={item.id}
-                    title={item.fecha} subtitle={item.salida}
+                    title={item.Fecha_Salida} subtitle={item.salida}
                     imagen={item.imagen} body={item.arribo} />)
             )
         }
